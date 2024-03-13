@@ -1,0 +1,17 @@
+with python
+read file Amazon.html and parse it with Beautiful soup
+find all
+div with class="puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-v2v5pwx3nl8aar2aoxf0782v1pf s-latency-cf-section puis-card-border"
+for all the divs
+try find span with class="a-size-medium a-color-base a-text-normal and store it to Product_name
+except Product_name = " "
+
+try find span with class="a-price-whole" and store it to Product_price
+except Product_price = " "
+try find span with class="a-size-base s-underline-text" and store it to Product_Reviews
+except Product_Reviews = " "
+
+open an Excel file and write Product_name,Product_price and Product_Reviews
+
+
+
